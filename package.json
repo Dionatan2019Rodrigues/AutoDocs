@@ -1,0 +1,30 @@
+{
+  "name": "autodocs",
+  "version": "1.0.0",
+  "description": "Sistema desenvolvido para automatizar a geração de documentos institucionais relacionados a projetos e convênios da UFSM. A plataforma centraliza o preenchimento de informações administrativas, financeiras e operacionais por meio de formulários, gerando automaticamente documentos em PDF padronizados conforme os modelos exigidos pela Coordenadoria de Projetos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dionatan2019Rodrigues/AutoDocs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dionatan2019Rodrigues/AutoDocs/issues"
+  },
+  "homepage": "https://github.com/Dionatan2019Rodrigues/AutoDocs#readme",
+  "dependencies": {
+    "axios": "^1.17.0",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
