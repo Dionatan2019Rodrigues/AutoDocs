@@ -3,6 +3,15 @@ Sistema desenvolvido para automatizar a geração de documentos institucionais r
 
 ### Como executar ? 
 
+##### Baserow
 ```
-npx ts-node src/index.ts
+npm run baserow
+```
+##### Formbricks
+```
+npm run formbricks
+```
+##### Typebot
+```
+npm run typebot
 ```

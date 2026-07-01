@@ -4,7 +4,9 @@
   "description": "Sistema desenvolvido para automatizar a geração de documentos institucionais relacionados a projetos e convênios da UFSM. A plataforma centraliza o preenchimento de informações administrativas, financeiras e operacionais por meio de formulários, gerando automaticamente documentos em PDF padronizados conforme os modelos exigidos pela Coordenadoria de Projetos.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "baserow": "ts-node src/baserow/index.ts",
+    "formbricks": "ts-node src/formbricks/index.ts",
+    "typebot": "ts-node src/typebot/index.ts"
   },
   "repository": {
     "type": "git",
