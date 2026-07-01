@@ -1,0 +1,18 @@
+services:
+  baserow:
+    image: baserow/baserow:latest
+    container_name: baserow
+    restart: unless-stopped
+
+    ports:
+      - "80:80"
+
+    environment:
+      BASEROW_PUBLIC_URL: http://localhost
+
+    volumes:
+      - baserow_data:/baserow/data
+
+volumes:
+  baserow_data:
+    external: true
